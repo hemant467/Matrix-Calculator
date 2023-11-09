@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.4.3.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { background: transparent }
+		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
+		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;es&quot;&gt;
+&lt;head&gt;
+	&lt;meta charset=&quot;UTF-8&quot;&gt;
+	&lt;title&gt;JSMatrix calculator&lt;/title&gt;
+	&lt;script src=&quot;./MatrixCalculator.js&quot;&gt;&lt;/script&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;./style.css&quot;&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+	&lt;header&gt;&lt;img = &quot;&quot; alt=&quot;JSMatrix Calculator Designed by ❤️‍🔥 Hemant Katta 🔥&quot;/&gt;&lt;/header&gt;
+	&lt;div id=&quot;upper&quot;&gt;
+		&lt;div id=&quot;matrix1&quot; class=&quot;parent&quot;&gt;
+			&lt;h1 class=&quot;title&quot;&gt;Matrix A&lt;/h1&gt;
+			&lt;input class=&quot;m1r1&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m1r1&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m1r1&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m1r2&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m1r2&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m1r2&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m1r3&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m1r3&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m1r3&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;		
+			&lt;div class=&quot;functions&quot;&gt;
+				&lt;input class=&quot;function&quot; type=&quot;button&quot; value=&quot;Determinant&quot; onclick=&quot;mc.calculateDeterminant()&quot;/&gt;
+				&lt;input class=&quot;function&quot; type=&quot;button&quot; value=&quot;Transpose&quot; onclick=&quot;mc.transposeMatrix()&quot;/&gt;
+				&lt;input class=&quot;function&quot; type=&quot;button&quot; value=&quot;Invert&quot; onclick=&quot;mc.invertMatrix()&quot;/&gt;
+				&lt;input class=&quot;function&quot; type=&quot;button&quot; value=&quot;Rank&quot; onclick=&quot;mc.calculateRank()&quot;/&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;operations&quot;&gt;
+			&lt;input class=&quot;operation&quot; type=&quot;button&quot; value=&quot;A x B&quot; onclick=&quot;mc.multiplyMatrix()&quot;/&gt;
+			&lt;input class=&quot;operation&quot; type=&quot;button&quot; value=&quot;A + B&quot; onclick=&quot;mc.addMatrix()&quot;/&gt;
+			&lt;input class=&quot;operation&quot; type=&quot;button&quot; value=&quot;A - B&quot; onclick=&quot;mc.subtractMatrix()&quot;/&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;matrix2&quot; class=&quot;parent&quot;&gt;
+			&lt;h1 class=&quot;title&quot;&gt;Matrix B&lt;/h1&gt;
+			&lt;input class=&quot;m2r1&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m2r1&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m2r1&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m2r2&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m2r2&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m2r2&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m2r3&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m2r3&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;
+			&lt;input class=&quot;m2r3&quot; type=&quot;text&quot; value=&quot;0&quot;/&gt;		
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;br&gt;
+	&lt;div id=&quot;lower&quot;&gt;
+			&lt;textarea wrap=&quot;soft&quot; rows=&quot;10&quot; cols=&quot;20&quot; id=&quot;console&quot; disabled&gt;&lt;/textarea&gt;
+	&lt;/div&gt;
+	
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
